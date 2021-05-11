@@ -1,26 +1,35 @@
+//Navbar
 var newN = document.createElement("nav")
-document.body.append("About")
-document.body.append("Home")
-document.body.append("Contact")
+document.body.prepend(" Contact")
+document.body.prepend(" Home")
+document.body.prepend("About")
 
-var newH = document.createElement("Header")
+//The header
+var newH = document.createElement("h1")
 newH.textContent = "I am a header!"
 document.body.append(newH)
 
+//Paragraph tag
 var newP = document.createElement("p")
 newP.textContent = "JavaScript is fun!"
 document.body.append(newP)
 
-var newli = document.createElement("li")
-newli.textContent = "head"
-// newli.textContent = "shoulders"
-// document.body.prepend("head")
-// // document.body.append("shoulders")
-
-// var newli1 = document.createElement("li1")
-// newli1.textContentent ="shoulders"
-// document.body.append(newli1)
+//List items
+var myList = document.createElement('li')
+myList.textContent = 'Head'
+document.body.append(myList)
+var myList = document.createElement("li")
+myList.textContent= 'Shoulders'
+document.body.append(myList)
+var myList = document.createElement("li")
+myList.textContent= 'knees'
+document.body.append(myList)
+var myList = document.createElement("li")
+myList.textContent= 'Toes'
+document.body.append(myList)
  
+//Footer
 var newF = document.createElement("F")
 newF.textContent = "I am a footer"
 document.body.append(newF)
+//document.getElementById(newF).style.padding = "15px";
