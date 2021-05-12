@@ -16,7 +16,7 @@ document.body.append(newH2)
 
 let div = document.querySelector('#content');
 div.classList.add('border')
-
+console.log(div.className)
 
 var newH = document.querySelectorAll('h2');
 for (var i= 0; i < newH.length; i++) {
