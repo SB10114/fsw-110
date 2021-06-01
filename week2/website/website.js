@@ -32,4 +32,4 @@ document.body.append(myList)
 var newF = document.createElement("F")
 newF.textContent = "I am a footer"
 document.body.append(newF)
-//document.getElementById(newF).style.padding = "15px";
+//website.getElementById(newF)[0].style.margintop = "35";

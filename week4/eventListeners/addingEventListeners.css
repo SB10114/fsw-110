@@ -1,0 +1,9 @@
+.square {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+  }
+
+body {
+    background-color:rgba(248, 53, 4, 0.295);
+  }

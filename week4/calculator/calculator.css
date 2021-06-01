@@ -1,0 +1,49 @@
+#body {
+    background-color: rgba(60, 61, 61, 0.116);
+    padding-left: 375px;
+    margin-top: 175px;
+}
+#button1{
+    color: blueviolet;
+    margin-top: 30px;
+    height: 50px;
+    width: 70px;
+    font-family: italic;
+    font-size: 18px;
+    border-radius: 15px;
+
+}
+#add1, #add2 {
+    background-color: rgba(137, 23, 243, 0.24);
+    border-radius: 10px;
+}
+#button2 {
+    color: rgb(104, 201, 25);
+    margin-top: 30px;
+    height: 50px;
+    width: 70px;
+    font-family: italic;
+    font-size: 16px;
+    border-radius: 15px;
+}
+#subt1, #subt2 {
+    background-color: rgba(44, 238, 141, 0.158);
+    border-radius: 10px;
+}
+#button3 {
+    color: rgb(12, 12, 187);
+    margin-top: 30px;
+    height: 50px;
+    width: 70px;
+    font-family: italic;
+    font-size: 16px;
+    border-radius: 15px;
+}
+#mult1, #mult2{
+    background-color: rgba(66, 66, 238, 0.26);
+    border-radius: 10px;
+}
+.outcome {
+    color: rgb(243, 4, 203);
+    font-size: 26px;
+}
