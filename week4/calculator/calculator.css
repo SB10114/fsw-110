@@ -3,6 +3,22 @@
     padding-left: 375px;
     margin-top: 175px;
 }
+.container1 {
+    background-color:rgba(38, 73, 70, 0.342);
+    height: 100px;
+    width: 470px;
+    border: solid 4px;
+}
+.container2 {
+    background-color:rgba(38, 49, 49, 0.342);
+    height: 525px;
+    width: 470px;
+    border: solid 4px;
+}
+#h1 {
+    padding-top: 5px;
+    padding-left: 30px;
+}
 #button1{
     color: blueviolet;
     margin-top: 30px;

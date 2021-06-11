@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Html Inputs</title>
+    <link rel= 'stylesheet' href='UsingHtmlInputs.css'>
+</head>
+<body>
+
+    <form name = 'form' id= 'form'>
+        <p id= 'q1'>Personal information:</p>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for='age'>Age:</label><br>
+            <input type="number" id="age" name= "age"><br><br>
+        
+        <p id= 'q2'>Have you eaten today?</p>
+            <input type='radio' id='yes1' name='eaten' value='yes'>
+            <label for='yes1'>Yes</label><br>
+            <input type='radio' id='no1' name='eaten' value='no'>
+            <label for='no1'>No</label><br><br><br>
+
+        <label for="question" id= 'q3'>Was it nutritious?</label><br><br>
+            <select name="nutrition" id='nutrition'>
+                <option value='undefined'>Decline to answer.</option>
+                <option value='yes'>Yes</option>
+                <option value='no'>No</option>
+                <option value='maybe'>Maybe</option>
+                <option value='snark'>What's it to ya?</option>
+            </select><br><br>
+
+        <p id= 'q4'>Which parts of the food pyramid did your meal(s) cover?</p>
+            <input type="checkbox" class='foodGroups' name='foodGroups' value= 'dairy'>
+            <label for="group1"> I had dairy</label><br>
+            <input type="checkbox" class='foodGroups' name='foodGroups2' value='fruit'>
+            <label for="group2"> I had fruit</label><br>
+            <input type="checkbox" class='foodGroups' name='foodGroups3' value='grain'>
+            <label for='group3'> I had grains</label><br>
+            <input type="checkbox" class='foodGroups' name='foodGroups4' value='meats'>
+            <label for='group4'> I had lean meats</label><br>
+            <input type="checkbox" class='foodGroups' name='foodGroups4' value='vegetables'>
+            <label for='group5'> I had vegetables/beans</label><br><br>
+
+        <button id="button1">Submit</button>
+    </form> 
+          
+
+    
+    <script src= 'UsingHtmlInputs.js'></script>
+</body>
+</html>
