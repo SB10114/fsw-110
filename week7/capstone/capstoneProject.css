@@ -17,5 +17,13 @@ h1 {
     background-color: rgba(160, 245, 248, 0.342);
 }
 @media only screen and (max-width: 600px){
-    h1 { font-size: 20px;}
+    h1 { 
+        font-size: 20px;
+        padding-top: 7px;}
+    #flex-container {
+        height: 50px;}
+    #item3 {
+        height: 75px; 
+        width: 250px;}
+    
 }

@@ -2,7 +2,7 @@ var button= document.createElement('button')
    button.textContent= 'Submit'
    document.body.appendChild(button)
    button.addEventListener('click', function(event){
-    event.preventDefault()
+   event.preventDefault()
     var input1 = document.form.item1.value;
     var input2 = document.form.item2.value;
     var input3 = document.form.item3.value;
