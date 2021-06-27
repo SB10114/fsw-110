@@ -1,0 +1,21 @@
+h1 {
+    color: rgba(61, 56, 56, 0.801);
+    font-style: oblique;
+    font-size: 50px;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+#flex-container {
+    background-color: rgba(97, 181, 236, 0.205);
+    height: 100px;
+}
+#item3 {
+    height: 150px;
+    width: 500px
+}
+#page{
+    background-color: rgba(160, 245, 248, 0.342);
+}
+@media only screen and (max-width: 600px){
+    h1 { font-size: 20px;}
+}
