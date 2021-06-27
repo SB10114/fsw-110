@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form id="submitme" name = 'submitme'>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="first-name" name="user_name"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="last-name" name="user_name"><br>
+            <label for='age'>Age:</label><br>
+            <input type="number" id="age" name= "age"><br>
+            <label for='date'>Today's date:</label><br>
+            <input type="date" id="date" name= "date"><br><br>
+
+            <p>This is a radio button.</p>
+            <input type='radio' id='radio' name='radio' value='yes'>
+            <label for='yes1'>Yes</label><br>
+            <input type='radio' id='radio' name='radio' value='no'>
+            <label for='no1'>No</label><br><br>
+
+            <p>This is a check list.</p>
+            <input type="checkbox" class='groups' name='groups' value= 'opt1'>
+            <label for="group1"> I am option 1.</label><br>
+            <input type="checkbox" class='groups' name='groups' value='opt2'>
+            <label for="group2"> I am option 2.</label><br>
+            <input type="checkbox" class='groups' name='groups' value='opt3'>
+            <label for='group3'> I am option 3.</label><br><br>
+           
+            <button id= 'button'>Click Me</button>
+
+            <!-- the button knows that it belongs to this form because it's nested in it. 
+            A single button in a form will defualt to a submit button and will trigger a submit event -->
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
